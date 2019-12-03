@@ -55,6 +55,7 @@ public final class Crawler {
     this.pageService = pageService;
   }
 
+
   public void crawlPage(HttpUrl url) {
     // Skip hosts that we've visited many times.
     AtomicInteger hostnameCount = new AtomicInteger();

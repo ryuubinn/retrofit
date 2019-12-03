@@ -79,6 +79,7 @@ public final class DynamicBaseUrl {
 
     hostSelectionInterceptor.setHost("www.pepsi.com");
 
+
     Response<ResponseBody> response2 = pop.robots().execute();
     System.out.println("Response from: " + response2.raw().request().url());
     System.out.println(response2.body().string());
