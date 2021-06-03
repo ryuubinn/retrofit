@@ -38,11 +38,12 @@ public class HttpException extends RuntimeException {
 
   /** HTTP status code. */
   public int code() {
-    return code;
+        return code;
   }
 
   /** HTTP status message. */
   public String message() {
+    System.out.println(message);
     return message;
   }
 
