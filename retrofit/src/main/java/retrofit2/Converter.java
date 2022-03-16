@@ -86,7 +86,7 @@ public interface Converter<F, T> {
     }
 
     /**
-     * Extract the raw class type from {@code type}. For example, the type representing
+     * Extract the raw class type from {@code type}. For example
      * {@code List<? extends Runnable>} returns {@code List.class}.
      */
     protected static Class<?> getRawType(Type type) {
